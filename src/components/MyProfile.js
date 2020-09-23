@@ -19,8 +19,10 @@ class MyProfile extends Component {
           id="description"
           placeholder="Description about yourself"
         />
-        <input type="checkbox" name="agree" id="agree" />
-        <label for="agree">I have read the terms of conduct</label>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree">I have read the terms of conduct</label>
+        </div>
         <button>Submmit</button>
       </form>
     );
